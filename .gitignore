@@ -1,0 +1,6 @@
+node_modules/
+.env
+auth.sqlite
+auth.sqlite-shm
+auth.sqlite-wal
+auth.sqlite.*.tmp

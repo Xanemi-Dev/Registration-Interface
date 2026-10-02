@@ -1,0 +1,23 @@
+{
+  "name": "registration-interface",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A secure, responsive login and registration interface with an Express API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sql.js": "^1.13.0"
+  }
+}
